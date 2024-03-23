@@ -15,11 +15,10 @@ body {
   text-align: center;
 }
 h1 {
-  font-family: "Shantell Sans", cursive;
+   font-family: "Josefin Slab", serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings: "BNCE" 0, "INFM" 0, "SPAC" 0;
   color: rgb(29, 0, 95);
 }
 .main {
