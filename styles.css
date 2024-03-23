@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(255, 155, 155);
+  text-align: center;
+}
+h1 {
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "BNCE" 0, "INFM" 0, "SPAC" 0;
+  color: rgb(29, 0, 95);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  min-height: 40vh;
+  width: 70vh;
+  background-color: blanchedalmond;
+}
+.btn {
+  background: #9ced1a;
+  background-image: -webkit-linear-gradient(top, #9ced1a, #34ad00);
+  background-image: -moz-linear-gradient(top, #9ced1a, #34ad00);
+  background-image: -ms-linear-gradient(top, #9ced1a, #34ad00);
+  background-image: -o-linear-gradient(top, #9ced1a, #34ad00);
+  background-image: linear-gradient(to bottom, #9ced1a, #34ad00);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: "Gayathri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px 20px 1px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #33daff;
+  background-image: -webkit-linear-gradient(top, #33daff, #00a2c2);
+  background-image: -moz-linear-gradient(top, #33daff, #00a2c2);
+  background-image: -ms-linear-gradient(top, #33daff, #00a2c2);
+  background-image: -o-linear-gradient(top, #33daff, #00a2c2);
+  background-image: linear-gradient(to bottom, #33daff, #00a2c2);
+  text-decoration: none;
+}
+#msg {
+  font-size: 1.5rem;
+  font-family: "Piazzolla", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(123, 18, 18);
+}
+@media (max-width: 500px) {
+  #msg {
+    font-size: 1.2rem;
+    font-family: "Piazzolla", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
